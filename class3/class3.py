@@ -63,3 +63,13 @@ print("密碼錯誤")
 
 
 分數=input("請輸入分數:")
+if 分數>90:
+    print("a")
+elif 分數 80-90:
+    print("b")
+elif 分數 70-79:
+    print("c")
+elif 分數 60-69:
+    print("d")
+elif 分數<59:
+    print("e")
