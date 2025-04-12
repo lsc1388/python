@@ -18,10 +18,6 @@ EX:
 體重過重
 """
 
-回應
-
-回覆
-
 h = float(input("請輸入身高:"))
 w = float(input("請輸入體重:"))
 bmi = w / h**2
@@ -32,3 +28,16 @@ elif bmi < 20.7:
     print("體重過重")
 else:
     print("體重正常")
+
+    import turtle as t
+
+t.speed(0)
+t.color("blue")
+t.shape("circle")
+t.penup()
+
+for i in range(100):
+    t.forward(i * 2)
+    t.stamp()
+    t.right(40)
+t.done()

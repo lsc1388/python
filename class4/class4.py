@@ -59,3 +59,16 @@ turtle.shape("turtle")
 # 設定小烏龜形狀'arrow', 'turtle', 'circle', 'square'triangle,claasic,.
 turtle.stamp()  # 蓋章
 turtle.stamp()  # 提筆
+
+import turtle as t
+
+t.penup()
+t.color("red")
+t.shape("turtle")
+for i in range(100):
+    t.forward(i * 2)
+    t.stamp()
+    t.right(40)
+    speed(0)
+
+    t.done()
