@@ -46,26 +46,24 @@ print(not False)  # True, 非False
 
 
 password = input("請輸入密碼:")
-if  password== "1234":
+if password == "1234":
+    print("密碼正確")
+elif password == "5678":
     print("密碼正確")
 else:
     print("密碼錯誤")
 
-    #if elif else
-   elif pwd == "1234":#如果密碼是\1234
-print("密碼正確")#印出密碼正確
-else:
-print("密碼錯誤")
 
-#if elif else是連續的判斷,只要有一個條件成立後面的判斷就部會執行
+# if elif else是連續的判斷,只要有一個條件成立後面的判斷就部會執行
 # if 一定要有,elif可以有多個但是選用,else只能有一個但是選用
-if 分數>90:
+分數 = int(input("請輸入分數:"))
+if 分數 > 90:
     print("a")
-elif 分數 80-90:
+elif 分數 > 80:
     print("b")
-elif 分數 70-79:
+elif 分數 > 70:
     print("c")
-elif 分數 60-69:
+elif 分數 > 60:
     print("d")
-elif 分數<59:
+else:
     print("e")
