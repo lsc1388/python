@@ -1,9 +1,0 @@
-f = int(input("請輸入價格: "))
-i = 1
-while f > 0:
-    print(f"價格: {f}")
-    i += 1
-    print(i)
-f = input("請輸入價格: ")
-if f == "0":
-    print("0")
