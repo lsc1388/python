@@ -22,16 +22,20 @@ EX:
 
 import random
 
-r = random.randint(1, 100)
+big = 100
+small = 0
+f = random.randint(1, 100)
 while True:
-    i = int(input("請輸入一個數字:"))
-    if r == i:
+    i = int(input("請輸入一個{small}到{big}到數字:"))
+    if i == f:
         print("猜中了")
         break
-    elif r < i:
+    elif i < f:
         print("在小一點")
-    else:
-        print("在大一點")
+        if i < big:
+            big = i
+        elif i > small:
+            small = i
 
         juices_list = ["蘋果汁", "柳橙汁", "葡萄汁", "系統關閉"]
 
