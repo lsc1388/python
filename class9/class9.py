@@ -89,4 +89,4 @@ while True:
         print("~~系統關閉~~")
         break
 
-    print(f"您點的商品是 {juices_list[choice-1]}\n")
+    print(f"您點的商品是 {juices_list[choice-1]}\n")10400
