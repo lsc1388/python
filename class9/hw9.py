@@ -32,12 +32,10 @@ while True:
         break
     elif i < f:
         print("在小一點")
-        if i < big:
-            big = i
-        elif i > small:
-            small = i
+    else:
+        print("在大一點")
 
-    juices_list = ["蘋果汁", "柳橙汁", "葡萄汁", "可樂", "系統關閉"]
+        juices_list = ["蘋果汁", "柳橙汁", "葡萄汁", "可樂", "系統關閉"]
 
 while True:
     print("1. 蘋果汁")
