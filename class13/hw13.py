@@ -2,11 +2,11 @@ fruits = {"蘋果": 28, "香蕉": 20, "橘子": 30}
 
 
 while True:
-    print("\n目前水果價格：")
+    print("目前水果價格：")
     for name, price in fruits.items():
         print(f"{name}：{price} 元")
 
-    print("\n水果店價格查詢系統")
+    print("水果店價格查詢系統")
     print("1. 新增水果價格")
     print("2. 修改水果價格")
     print("3. 刪除水果")
